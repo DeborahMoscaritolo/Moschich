@@ -1,0 +1,87 @@
+/* GENERAL */
+body{
+    background-color: whitesmoke ;
+    
+    
+}
+
+/*HEADER*/
+header{
+	position: static;
+    top: 0;
+    
+}
+div.header{
+	padding: 5px;
+	text-align: center;
+    background-color:rgb(56, 173, 76);
+    	
+}
+div.header h1{
+    font-size: 50px;
+    font-family: "Trebuchet MS";
+    color:whitesmoke;
+    
+
+} 
+/*MAIN*/
+
+.article{
+    font-family: "Trebuchet MS";
+    color: white;
+}
+
+
+/* div.social {
+    border-top: 1px solid rgb(56, 173, 76);
+    padding-top: 20px;
+    margin-top: 20px;
+}  */
+
+div.row {
+    display: flex;
+}
+
+div.column {
+    flex: 50%;
+    padding: 10px;
+    
+}
+
+div.article{
+    display: none;
+}
+
+
+
+h2.article-title {
+    font-size: 50px;
+    text-align: center;
+    font-family:  "Trebuchet MS";
+    color: rgb(56, 173, 76);
+    
+}
+
+div.column:hover h2{
+    font-size: 20px;
+    width: 100%;
+    float: left;
+    margin: 10;
+    padding: 0;
+
+    
+    
+    
+       
+} 
+div.column:hover div.article{
+    display: block;
+    color: black;
+    
+}
+
+
+
+div.social{
+    text-align: center;
+}
